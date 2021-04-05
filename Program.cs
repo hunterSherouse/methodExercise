@@ -32,6 +32,16 @@ namespace MethodExercise
             var subResult = Sub(6, 2);
             Console.WriteLine(subResult);
 
+            var product = Prod(3, 5);
+            Console.WriteLine(product);
+
+            var quotient = Quot(10, 2);
+            Console.WriteLine(quotient);
+
+            var modulus = Mod(9, 2);
+            Console.WriteLine(modulus);
+
+
         }
         public static int Add(int num1, int num2)
         {
@@ -42,5 +52,22 @@ namespace MethodExercise
         {
             return num1 - num2;
         }
+
+        public static int Prod(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
+        public static int Quot(int num1, int num2)
+        {
+            return num1 / num2;
+        }
+
+        public static int Mod(int num1, int num2)
+        {
+            return num1 % num2;
+        }
+
+
     }
 }
